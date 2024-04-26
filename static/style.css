@@ -1,0 +1,104 @@
+@font-face{
+  font-family: 'Ubuntu';
+  src: url("fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: 'UbuntuNormal';
+  src: url("fonts/Ubuntu-Light.ttf") format("truetype");
+}
+body{
+  background: #313338;
+}
+header{
+    width: 100%;
+    leight: 100%;
+    margin-bottom: 10px;
+    background: #2b2d31;
+    font-size: 0;
+    padding: 18.5px;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    color:#f1f2f4;
+}
+h3{
+  font-family: 'Ubunty', sans-serif;
+  font-style: normal;
+  color:#f1f2f4 ;
+}
+h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    color:#f1f2f4;
+    font-size: 30px;
+}
+nav ul li{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    background: #313338;
+    color:#f1f2f4;
+    font-style: normal;
+    font-size: 19px;
+    padding:15px;
+}
+nav ul li ul li{
+    font-family: 'UbuntuNormal', sans-serif;
+    font-style: normal;
+  color:#f1f2f4 ;
+}
+p{
+  font-family: 'UbuntuNormal', sans-serif;
+  font-style: normal;
+  color:#f1f2f4 ;
+}
+.wrapper{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 98%;
+  background: #313338;
+}
+img{
+  width: 150px;
+  padding: 15px;
+  border-radius: 50%;
+  margin-left: 12px;
+  float: left;
+}
+.userAvatar{
+  width: 50px;
+  padding: 15px;
+  float: left;
+}
+.p_user_name{
+  position: absolute;
+  top:40px;
+  left: 120px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  color:#f1f2f4;
+}
+.p_main_info{
+  padding: 15px;
+  font-size: 25px;
+  font-family: 'UbuntuNormal', sans-serif;
+}
+.whos{
+  margin-left: 35px;
+}
+button{
+  display: inline-block;
+  background-color: #7289da;
+  color: #fff;
+  font-family: 'UbuntuNormal', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: 0;
+}
+button:hover {background-color: #677bc4;}
